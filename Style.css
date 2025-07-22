@@ -1,0 +1,28 @@
+/*Gaya untuk seluruh halaman */
+body {
+    font-family: 'Coursier New' , sans-serif; /*Bisa diganti sesuai selera */
+    background-color: #e6e6fa; /*warna ungu muda */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100v;
+}
+/*Gaya untuk 'kartu' utama */
+.profile-card {
+    background-color: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0.1);
+    text-align: center;
+}
+/* Gaya untuk gambar profil */
+img {
+    border-radius: 50%;
+    border: 3px solid #5f9ea0;
+}
+/* Gaya untuk gambar profil */
+a {
+    text-decoration: none;
+    color: #1e90ff;
+}
